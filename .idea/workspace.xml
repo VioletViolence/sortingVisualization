@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visualisation.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Visualisation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountingSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +88,17 @@
       <updated>1576473793346</updated>
       <workItem from="1576473796478" duration="774000" />
       <workItem from="1576575501487" duration="8535000" />
-      <workItem from="1576659431324" duration="1588000" />
+      <workItem from="1576659431324" duration="5798000" />
+      <workItem from="1576960971517" duration="706000" />
     </task>
+    <task id="LOCAL-00001" summary="Add visualization files">
+      <created>1576759119459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576759119459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add visualization files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add visualization files" />
   </component>
 </project>

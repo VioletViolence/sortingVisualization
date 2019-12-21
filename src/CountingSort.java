@@ -5,6 +5,14 @@ public class CountingSort {
     static int[] countingSort(int[] arr){
 
 
+        // TODO: Fing array's mox number
+
+
+        // TODO: Count number or mentions of numbers
+
+
+        // TODO: Arrange an array from the bottom up 
+
         return arr;
     }
 
