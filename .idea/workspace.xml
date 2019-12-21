@@ -54,7 +54,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.CountingSort">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountingSort" />
+      <module name="Implementations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="Implementations" />
@@ -71,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
       </list>
@@ -89,7 +97,7 @@
       <workItem from="1576473796478" duration="774000" />
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
-      <workItem from="1576960971517" duration="706000" />
+      <workItem from="1576960971517" duration="2163000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -98,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576759119459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor changes and TODO">
+      <created>1576964843004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576964843004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add visualization files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add visualization files" />
+    <MESSAGE value="minor changes and TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes and TODO" />
   </component>
 </project>
