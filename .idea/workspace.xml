@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Patterns/prototypePattern/ClonableProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/prototypePattern/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +118,7 @@
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
       <workItem from="1576960971517" duration="6224000" />
-      <workItem from="1577723779473" duration="1248000" />
+      <workItem from="1577723779473" duration="3308000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577724283988</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Singleton finished">
+      <created>1577725043882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577725043882</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +193,7 @@
     <MESSAGE value="minor changes and TODO" />
     <MESSAGE value="Shorthanded counting sort" />
     <MESSAGE value="Added pattern implementations (2/6)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added pattern implementations (2/6)" />
+    <MESSAGE value="Singleton finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton finished" />
   </component>
 </project>
