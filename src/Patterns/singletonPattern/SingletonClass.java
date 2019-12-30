@@ -2,8 +2,6 @@ package Patterns.singletonPattern;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalUnit;
-import java.util.Date;
 
 public class SingletonClass {
     //variables

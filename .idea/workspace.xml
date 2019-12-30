@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/ProductBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Visualisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visualisation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +102,7 @@
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
       <workItem from="1576960971517" duration="6224000" />
-      <workItem from="1577723779473" duration="137000" />
+      <workItem from="1577723779473" duration="495000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -142,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577723829518</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added pattern implementations (2/6)">
+      <created>1577723977765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577723977765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +162,7 @@
     <MESSAGE value="Add visualization files" />
     <MESSAGE value="minor changes and TODO" />
     <MESSAGE value="Shorthanded counting sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shorthanded counting sort" />
+    <MESSAGE value="Added pattern implementations (2/6)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pattern implementations (2/6)" />
   </component>
 </project>
