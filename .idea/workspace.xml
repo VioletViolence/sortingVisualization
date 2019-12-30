@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Implementations/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Implementations/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Implementations/QuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +61,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountingSort">
+  <component name="RunManager" selected="Application.MainManager">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.CountingSort" />
       <module name="Implementations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.singletonPattern.MainManager" />
+      <module name="Implementations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.singletonPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +98,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainManager" />
         <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
@@ -102,7 +119,7 @@
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
       <workItem from="1576960971517" duration="6224000" />
-      <workItem from="1577723779473" duration="495000" />
+      <workItem from="1577723779473" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -139,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577723977765</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added pattern implementations (2/6)">
+      <created>1577724283988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577724283988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
