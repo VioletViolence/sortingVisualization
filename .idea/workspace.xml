@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/builderPattern/ProductBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/MainManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/singletonPattern/SingletonClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Visualisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Visualisation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +43,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Patterns" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src\Patterns" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src" />
     </key>
@@ -56,21 +70,21 @@
   </component>
   <component name="RunManager" selected="Application.CountingSort">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountingSort" />
+      <option name="MAIN_CLASS_NAME" value="Sorting.CountingSort" />
       <module name="Implementations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
       <module name="Implementations" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
       <module name="Implementations" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +111,8 @@
       <workItem from="1576473796478" duration="774000" />
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
-      <workItem from="1576960971517" duration="2163000" />
+      <workItem from="1576960971517" duration="6224000" />
+      <workItem from="1577723779473" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -113,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576964843004</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Shorthanded counting sort">
+      <created>1576966916762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576966916762</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Shorthanded counting sort">
+      <created>1577723829518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577723829518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +164,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add visualization files" />
     <MESSAGE value="minor changes and TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes and TODO" />
+    <MESSAGE value="Shorthanded counting sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shorthanded counting sort" />
   </component>
 </project>
