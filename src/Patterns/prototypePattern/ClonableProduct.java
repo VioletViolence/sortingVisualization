@@ -7,6 +7,7 @@ public class ClonableProduct implements Cloneable {
     private LocalDateTime timeOfCreation;
 
     public ClonableProduct(){
-
+    }
+    public ClonableProduct(String name){
     }
 }
