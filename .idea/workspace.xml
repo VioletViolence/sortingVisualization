@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patterns/prototypePattern/ClonableProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/prototypePattern/ClonableProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/prototypePattern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/prototypePattern/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,7 @@
       <workItem from="1576575501487" duration="8535000" />
       <workItem from="1576659431324" duration="5798000" />
       <workItem from="1576960971517" duration="6224000" />
-      <workItem from="1577723779473" duration="6979000" />
+      <workItem from="1577723779473" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="Add visualization files">
       <created>1576759119459</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577751618600</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Prototype Prototype">
+      <created>1577756241402</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1577756241402</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
