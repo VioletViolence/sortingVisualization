@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Dvarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Elf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Goblin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/GenericCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/MainBuilderClass.java" afterDir="false" />
+    <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="Factory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577884941732</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Factory">
+      <created>1577927269682</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577927269682</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,17 +255,18 @@
     <MESSAGE value="Added pattern implementations (2/6)" />
     <MESSAGE value="Singleton finished" />
     <MESSAGE value="Prototype Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype Prototype" />
+    <MESSAGE value="Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1577926846268">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1577926846268" />
-    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1577884941210">
+    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1577933473217">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1577884941210" />
+    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1577933473217" />
     <state x="740" y="317" key="FileChooserDialogImpl" timestamp="1577884698371">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -291,10 +291,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="463" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1577884700845" />
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1577884949699">
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1577927331269">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1577884949699" />
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1577927331269" />
     <state x="668" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1577884880224">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
