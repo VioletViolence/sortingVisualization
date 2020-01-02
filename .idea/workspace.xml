@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Dvarf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Elf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Goblin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/CharacterTypes/Orc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/GenericCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/factoryPattern/MainBuilderClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +60,23 @@
       <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainManager">
+  <component name="RunManager" selected="Application.MainBuilderClass">
     <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.CountingSort" />
       <module name="Implementations" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainBuilderClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.factoryPattern.MainBuilderClass" />
+      <module name="Implementations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.factoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainBuilderClass" />
         <item itemvalue="Application.MainManager" />
         <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.QuickSort" />
@@ -201,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577756298480</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Prototype Prototype">
+      <created>1577884941732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577884941732</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,14 +259,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="Prototype Prototype" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1577926846268">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1577926846268" />
+    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1577884941210">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1577884941210" />
     <state x="740" y="317" key="FileChooserDialogImpl" timestamp="1577884698371">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="317" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1577884698371" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577927196378">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1577927196378" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577927196378">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1577927196378" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577927196378">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1577927196378" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577927196378">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1577927196378" />
     <state x="463" y="205" key="SettingsEditor" timestamp="1577884700845">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="463" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1577884700845" />
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1577884949699">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1577884949699" />
     <state x="668" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1577884880224">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
