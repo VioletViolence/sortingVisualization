@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apps/jdbcApp/DataVerifivator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apps/jdbcApp/FIleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apps/jdbcApp/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoMeleeDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoRangeDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/IDoDamage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/META-INF/Implementations.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Director.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Director.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/builderPattern/ProductBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Dvarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Dvarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Elf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Elf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Goblin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Goblin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Human.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Orc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/CharacterTypes/Orc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/GenericCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/GenericCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/MainBuilderClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/factoryPattern/MainBuilderClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/prototypePattern/ClonableProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/prototypePattern/ClonableProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/prototypePattern/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/prototypePattern/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/singletonPattern/MainManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/singletonPattern/MainManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Patterns/singletonPattern/SingletonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Patterns/singletonPattern/SingletonClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Sorting/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Sorting/CountingSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Implementations/Sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Implementations/Sorting/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/strategyPattern/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577984747807</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TODO's for 04.01.2020">
+      <created>1578087687309</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578087687309</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +307,8 @@
     <MESSAGE value="Prototype Prototype" />
     <MESSAGE value="Factory" />
     <MESSAGE value="File Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Search" />
+    <MESSAGE value="TODO's for 04.01.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO's for 04.01.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="214" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577976250643">
@@ -334,14 +319,14 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="#com.intellij.ide.macro.MacrosDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1577959972294" />
-    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1577933805674">
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1578172873357">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1577933805674" />
-    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1577984747233">
+    <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1578172873357" />
+    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1578087686598">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1577984747233" />
+    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1578087686598" />
     <state x="740" y="317" key="FileChooserDialogImpl" timestamp="1577884698371">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -382,14 +367,14 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="463" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1577884700845" />
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1577984754434">
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1578087694655">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1577984754434" />
-    <state x="668" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1578087440488">
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1578087694655" />
+    <state x="668" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1578168444634">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="668" y="387" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1578087440488" />
+    <state x="668" y="387" key="com.intellij.ide.util.TipDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1578168444634" />
     <state x="616" y="260" key="run.anything.popup" timestamp="1577933930546">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
