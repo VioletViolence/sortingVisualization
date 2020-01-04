@@ -15,11 +15,15 @@ public class MainController {
     public static void main(String[] args) {
         Random random = new Random();
         if(random.nextBoolean()){
-            MainController.doDamage(new DoMeleeDamage());
+            System.out.println("Melee");
+            System.out.println(MainController.doDamage(new DoMeleeDamage()));
         }
         else{
-            MainController.doDamage(new DoRangeDamage());
+            System.out.println("Ranged");
+            System.out.println(MainController.doDamage(new DoRangeDamage()));
         }
+
+
     }
 
 }

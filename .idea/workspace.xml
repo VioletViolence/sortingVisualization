@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f437cef-c004-4b0d-928f-7d66aaa7fa09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoMeleeDamage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoRangeDamage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/IDoDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Patterns/strategyPattern/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoMeleeDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patterns/strategyPattern/Strategies/DoMeleeDamage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +51,14 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src\Patterns" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nathaniel Frey\Desktop\Implementations\src\Patterns" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.MainController">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Apps.FileSearch.App" />
       <module name="Implementations" />
@@ -94,6 +93,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.strategyPattern.MainController" />
+      <module name="Implementations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Patterns.strategyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Patterns.singletonPattern.MainManager" />
       <module name="Implementations" />
@@ -107,27 +119,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
-      <module name="Implementations" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.CountingSort" />
       <item itemvalue="Application.MainBuilderClass" />
       <item itemvalue="Application.MainManager" />
-      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.MainController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainController" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.MainBuilderClass" />
         <item itemvalue="Application.MainManager" />
         <item itemvalue="Application.CountingSort" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578087687309</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TODO's for 04.01.2020">
+      <created>1578173311185</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578173311185</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,30 +335,34 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="765" y="269" key="#com.intellij.ide.util.MemberChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1578172873357" />
-    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1578087686598">
+    <state x="756" y="444" width="408" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578173652374">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1578087686598" />
+    <state x="756" y="444" width="408" height="240" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1920.1040@0.40.1920.1040" timestamp="1578173652374" />
+    <state x="598" y="154" key="CommitChangelistDialog2" timestamp="1578173310656">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="598" y="154" key="CommitChangelistDialog2/0.40.1920.1040@0.40.1920.1040" timestamp="1578173310656" />
     <state x="740" y="317" key="FileChooserDialogImpl" timestamp="1577884698371">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="740" y="317" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1577884698371" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1577990064612">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1578173661960">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1577990064612" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1577990064612">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.40.1920.1040@0.40.1920.1040" timestamp="1578173661960" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1578173661960">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1577990064612" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1577990064612">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.40.1920.1040@0.40.1920.1040" timestamp="1578173661960" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1578173661960">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1577990064612" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1577990064612">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.40.1920.1040@0.40.1920.1040" timestamp="1578173661960" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1578173661960">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1577990064612" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.40.1920.1040@0.40.1920.1040" timestamp="1578173661960" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1577990064613">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -367,10 +383,10 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="463" y="205" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1577884700845" />
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1578087694655">
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1578173513046">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1578087694655" />
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1578173513046" />
     <state x="668" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1578168444634">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>

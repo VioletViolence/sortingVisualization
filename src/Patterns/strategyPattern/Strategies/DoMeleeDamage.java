@@ -12,7 +12,7 @@ public class DoMeleeDamage implements IDoDamage {
             boolean roll = rollForEffect(20);
             if(roll) return 40;
         }
-        return 20;
+        return dice;
     }
 
     @Override
