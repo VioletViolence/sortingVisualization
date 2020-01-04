@@ -6,7 +6,7 @@ public class CountingSort {
 
     static int[] countingSort(int[] arr){
 
-            int max = 0;
+        int max = 0;
         for (int number: arr) {
             if(number > max) max = number;
         }
@@ -15,7 +15,6 @@ public class CountingSort {
         for (int number: arr) {
             countArray[number]++;
         }
-
         int finalCounter = 0;
         for (int j = 0; j < countArray.length; j++) {
             while(countArray[j]>0){

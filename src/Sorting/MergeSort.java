@@ -9,7 +9,6 @@ public class MergeSort {
             var mid = arr.length / 2;
             int[] leftarray = Arrays.copyOfRange(arr, 0, mid);
             int[] rightarray = Arrays.copyOfRange(arr, mid, arr.length);
-
             mergesort(leftarray);
             mergesort(rightarray);
 

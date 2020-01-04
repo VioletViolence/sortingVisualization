@@ -7,7 +7,6 @@ public class QuickSort {
     static int[] quickSort(int[] arr,int first,int last){
         if (first < last) {
             var pivotPoint = partition(arr,first,last);
-
             quickSort(arr,first,pivotPoint-1);
             quickSort(arr, pivotPoint+1,last);
         }
